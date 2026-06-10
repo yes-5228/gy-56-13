@@ -8,6 +8,7 @@ class TravelRoute(models.Model):
         ("draft", "草稿"),
         ("published", "已发布"),
         ("forming", "报名成团中"),
+        ("full", "已满团"),
     ]
 
     title = models.CharField("线路名称", max_length=100)
